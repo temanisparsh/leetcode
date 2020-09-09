@@ -41,7 +41,7 @@ const Main = ({ updateProblem }) => {
             <Navbar>
                 <NavbarBrand href="/">Leetcode Solutions</NavbarBrand>
                 <NavbarText>
-                    <a href="https://www.github.com/temanisparsh/leetcode">
+                    <a href="https://www.github.com/temanisparsh/leetcode" target="_blank" >
                         Source Code
                     </a>
                 </NavbarText>
