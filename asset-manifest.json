@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/leetcode/static/css/main.b29cd783.chunk.css",
+    "main.js": "/leetcode/static/js/main.7377a7e7.chunk.js",
+    "main.js.map": "/leetcode/static/js/main.7377a7e7.chunk.js.map",
+    "runtime-main.js": "/leetcode/static/js/runtime-main.bca5a1f5.js",
+    "runtime-main.js.map": "/leetcode/static/js/runtime-main.bca5a1f5.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/leetcode/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.15fc95e2.chunk.js": "/leetcode/static/js/2.15fc95e2.chunk.js",
+    "static/js/2.15fc95e2.chunk.js.map": "/leetcode/static/js/2.15fc95e2.chunk.js.map",
+    "index.html": "/leetcode/index.html",
+    "precache-manifest.63373bd3dc340a82662dc742d4084145.js": "/leetcode/precache-manifest.63373bd3dc340a82662dc742d4084145.js",
+    "service-worker.js": "/leetcode/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/leetcode/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.b29cd783.chunk.css.map": "/leetcode/static/css/main.b29cd783.chunk.css.map",
+    "static/js/2.15fc95e2.chunk.js.LICENSE.txt": "/leetcode/static/js/2.15fc95e2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bca5a1f5.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.15fc95e2.chunk.js",
+    "static/css/main.b29cd783.chunk.css",
+    "static/js/main.7377a7e7.chunk.js"
+  ]
+}
