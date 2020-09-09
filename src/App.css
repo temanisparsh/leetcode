@@ -1,0 +1,158 @@
+.navbar {
+    background-color: #282a36 !important;
+    min-width: 100%;
+}
+
+.navbar a{
+    color: white;
+}
+.navbar a:hover {
+    color: grey;
+}
+
+.navbar-text {
+    color: white;
+}
+
+.navbar-text a:hover {
+    text-decoration: none;
+}
+
+.main {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    background-color: #1a1c27;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-group {
+    margin-top: 50px;
+}
+
+.problems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.problem-card {
+
+    background-color: #282a36;
+    border-radius: 5px;
+    padding: 20px 20px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.problem {
+
+    color: white;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    overflow: auto;
+    background-color: #1a1c27;
+    padding: 40px 20px;
+    font-size: 14px;
+
+}
+
+.problem-statement {
+    padding: 20px;
+    background-color: #1a1c27;
+}
+
+.problem pre {
+    color: white;
+}
+
+.problem-error {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 45vh;
+    color: white;
+}
+
+.main-error {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25vh;
+    color: white;
+}
+
+.problem-modal {
+    display: none;
+}
+
+.problem-statement {
+    color: white;
+}
+
+.problem-statement pre {
+    color: white;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.problem-statement img {
+    max-width: 100%;
+}
+
+.modal-body {
+    background-color: #1a1c27;
+}
+
+.modal-header {
+    color: white;
+    background-color: #1a1c27;
+    border: none;
+    font-size: 14px;
+}
+
+.close span {
+    color: white;
+}
+
+@media (max-width: 760px) {
+
+    .main {
+        width: 100%;
+    }
+
+    .navbar {
+        min-width: 0px;
+    }
+
+    .problem-card {
+        width: 80%;
+    }
+
+    .problem {
+        width: 0%;
+    }
+
+    .problem-desktop {
+        display: none;
+    }
+
+    .problem-error {
+        display: none;
+    }
+
+    .problem-modal {
+        display: block;
+    }
+
+}
