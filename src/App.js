@@ -41,7 +41,10 @@ const Main = ({ updateProblem }) => {
             <Navbar>
                 <NavbarBrand href="/">Leetcode Solutions</NavbarBrand>
                 <NavbarText>
-                    <a href="https://www.github.com/temanisparsh/leetcode" target="_blank" >
+                    <a
+                        href="https://www.github.com/temanisparsh/leetcode"
+                        target="_blank"
+                    >
                         Source Code
                     </a>
                 </NavbarText>
@@ -89,13 +92,11 @@ const Main = ({ updateProblem }) => {
                     </div>
                 ))}
             </div>
-            {
-                (!problems.length && difficulty !== 'All') && (
-                    <div className="main-error">
-                        No Problems found in this section
-                    </div>
-                )
-            }
+            {!problems.length && difficulty !== "All" && (
+                <div className="main-error">
+                    No Problems found in this section
+                </div>
+            )}
         </div>
     );
 };
@@ -118,7 +119,11 @@ const Problem = ({ problem, updateProblem }) => {
                 <div className="problem-desktop">
                     <div className="problem-statement">
                         <h4>
-                            {data[problem].number + ".   " + data[problem].name}
+                            <a href={data[problem].link} target="_blank">
+                                {data[problem].number +
+                                    ".   " +
+                                    data[problem].name}
+                            </a>
                         </h4>
                         {parse(data[problem].statement)}
                     </div>
@@ -140,7 +145,7 @@ const Problem = ({ problem, updateProblem }) => {
 
             {!isOpen && !problem && (
                 <div className="problem-error">
-                    Select a problem to view the solution.
+                    <div>Select a problem to view the solution.</div>
                 </div>
             )}
 

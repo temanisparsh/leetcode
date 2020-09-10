@@ -3,7 +3,7 @@
     min-width: 100%;
 }
 
-.navbar a{
+.navbar a {
     color: white;
 }
 .navbar a:hover {
@@ -41,7 +41,6 @@
 }
 
 .problem-card {
-
     background-color: #282a36;
     border-radius: 5px;
     padding: 20px 20px;
@@ -49,11 +48,14 @@
     margin: 10px;
     cursor: pointer;
     width: 100%;
+    transition: all 0.2s ease;
+}
 
+.problem-card:hover {
+    background-color: #1a1c27;
 }
 
 .problem {
-
     color: white;
     position: fixed;
     width: 50%;
@@ -63,12 +65,19 @@
     background-color: #1a1c27;
     padding: 40px 20px;
     font-size: 14px;
-
 }
 
 .problem-statement {
     padding: 20px;
     background-color: #1a1c27;
+}
+.problem-statement h4 a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.problem-statement h4 a:hover {
+    color: #646464;
 }
 
 .problem pre {
@@ -99,11 +108,11 @@
 
 .problem-statement pre {
     color: white;
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: pre-wrap; /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
 .problem-statement img {
@@ -121,12 +130,28 @@
     font-size: 14px;
 }
 
+.modal-content {
+    background-color:#1a1c27 !important;
+    border: none;
+}
+
 .close span {
     color: white;
 }
 
-@media (max-width: 760px) {
+.btn-dark {
+    background-color: #282a36 !important;
+}
 
+.btn-dark:hover {
+    background-color: #1a1c27 !important;
+}
+
+.btn-dark:active {
+    background-color: #1a1c27 !important;
+}
+
+@media (max-width: 760px) {
     .main {
         width: 100%;
     }
@@ -155,4 +180,7 @@
         display: block;
     }
 
+    img {
+        height: 0px !important;
+    }
 }
