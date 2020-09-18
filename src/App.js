@@ -39,7 +39,7 @@ const Main = ({ updateProblem }) => {
     return (
         <div className="main">
             <Navbar>
-                <NavbarBrand href="/">Leetcode Solutions</NavbarBrand>
+                <NavbarBrand href="./">Leetcode Solutions</NavbarBrand>
                 <NavbarText>
                     <a
                         href="https://www.github.com/temanisparsh/leetcode"
