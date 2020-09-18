@@ -154,7 +154,11 @@ const Problem = ({ problem, updateProblem }) => {
                 <div className="problem-modal">
                     <Modal isOpen={isOpen} toggle={toggleModal}>
                         <ModalHeader toggle={toggleModal}>
-                            {data[problem].number + ".   " + data[problem].name}
+                            <a className="problem-statement-link" href={data[problem].link} target="_blank">
+                                {data[problem].number +
+                                    ".   " +
+                                    data[problem].name}
+                            </a>
                         </ModalHeader>
                         <ModalBody>
                             <div className="problem-statement">

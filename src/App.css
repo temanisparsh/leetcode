@@ -74,6 +74,21 @@
     padding: 20px;
     background-color: #1a1c27;
 }
+
+.problem-statement-link {
+    text-decoration: none !important;
+    color: #b3b3b3;
+}
+
+.problem-statement-link:hover {
+    color: #646464;
+}
+
+.problem-statement-link:active {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
 .problem-statement h4 a {
     text-decoration: none;
     color: #b3b3b3;
