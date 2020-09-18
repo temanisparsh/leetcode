@@ -83,13 +83,14 @@ const Main = ({ updateProblem }) => {
             </div>
             <div className="problems">
                 {_.map(problems, (problem) => (
-                    <div
-                        className="problem-card"
+                    <a
                         onClick={() => updateProblem(problem.number)}
+                        href={"#" + problem.number}
                         key={problem.number}
+                        className="problem-card"
                     >
                         {problem["number"] + ".   " + problem["name"]}
-                    </div>
+                    </a>
                 ))}
             </div>
             {!problems.length && difficulty !== "All" && (
@@ -177,6 +178,11 @@ const Problem = ({ problem, updateProblem }) => {
 
 const App = () => {
     const [problem, updateProblem] = useState(null);
+
+    useEffect(() => {
+        const problemId = window.location.hash.substring(1);
+        if (data[problemId]) updateProblem(problemId);
+    }, [window.location]);
 
     return (
         <div className="app">

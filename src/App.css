@@ -41,6 +41,7 @@
 }
 
 .problem-card {
+    display: block;
     background-color: #282a36;
     border-radius: 5px;
     padding: 20px 20px;
@@ -52,6 +53,8 @@
 }
 
 .problem-card:hover {
+    color: white;
+    text-decoration: none;
     background-color: #1a1c27;
 }
 
