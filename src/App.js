@@ -22,6 +22,20 @@ import data from "./solutions.json";
 
 var parse = require("html-react-parser");
 
+var countProblems = (difficulty) => 
+{
+    let count = 0;
+    const keys = Object.keys(data);
+    for(let i = 0; i < keys.length; i++)
+    {
+        if (data[keys[i]].difficulty === difficulty)
+        {
+            count += 1;
+        }
+    }
+    return count;
+}
+
 const Main = ({ updateProblem }) => {
     const [difficulty, updateDifficulty] = useState("Easy");
     const [problems, updateProblems] = useState([]);
@@ -35,7 +49,7 @@ const Main = ({ updateProblem }) => {
             _.filter(data, (prob) => prob.difficulty === difficulty)
         );
     }, [difficulty]);
-
+    
     return (
         <div className="main">
             <Navbar>
@@ -56,28 +70,28 @@ const Main = ({ updateProblem }) => {
                         color="light"
                         onClick={() => updateDifficulty("All")}
                     >
-                        All
+                        All {countProblems("Easy") + countProblems("Medium") + countProblems("Hard")  }
                     </Button>
                     <Button
                         className="btn btn-dark"
                         color="light"
                         onClick={() => updateDifficulty("Easy")}
                     >
-                        Easy
+                        Easy {countProblems("Easy")}
                     </Button>
                     <Button
                         className="btn btn-dark"
                         color="light"
                         onClick={() => updateDifficulty("Medium")}
                     >
-                        Medium
+                        Medium {countProblems("Medium")}
                     </Button>
                     <Button
                         className="btn btn-dark"
                         color="light"
                         onClick={() => updateDifficulty("Hard")}
                     >
-                        Hard
+                        Hard {countProblems("Hard")}
                     </Button>
                 </ButtonGroup>
             </div>
