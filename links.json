@@ -282,7 +282,7 @@
     "57": {
         "link": "https://leetcode.com/problems/insert-interval",
         "name": "Insert Interval",
-        "difficulty": "Hard"
+        "difficulty": "Medium"
     },
     "58": {
         "link": "https://leetcode.com/problems/length-of-last-word",
@@ -892,7 +892,7 @@
     "189": {
         "link": "https://leetcode.com/problems/rotate-array",
         "name": "Rotate Array",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "190": {
         "link": "https://leetcode.com/problems/reverse-bits",
@@ -1197,7 +1197,7 @@
     "256": {
         "link": "https://leetcode.com/problems/paint-house",
         "name": "Paint House",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "257": {
         "link": "https://leetcode.com/problems/binary-tree-paths",
@@ -1407,7 +1407,7 @@
     "299": {
         "link": "https://leetcode.com/problems/bulls-and-cows",
         "name": "Bulls and Cows",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "300": {
         "link": "https://leetcode.com/problems/longest-increasing-subsequence",
@@ -1492,7 +1492,7 @@
     "316": {
         "link": "https://leetcode.com/problems/remove-duplicate-letters",
         "name": "Remove Duplicate Letters",
-        "difficulty": "Hard"
+        "difficulty": "Medium"
     },
     "317": {
         "link": "https://leetcode.com/problems/shortest-distance-from-all-buildings",
@@ -2127,7 +2127,7 @@
     "443": {
         "link": "https://leetcode.com/problems/string-compression",
         "name": "String Compression",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "444": {
         "link": "https://leetcode.com/problems/sequence-reconstruction",
@@ -2287,7 +2287,7 @@
     "475": {
         "link": "https://leetcode.com/problems/heaters",
         "name": "Heaters",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "476": {
         "link": "https://leetcode.com/problems/number-complement",
@@ -2562,7 +2562,7 @@
     "532": {
         "link": "https://leetcode.com/problems/k-diff-pairs-in-an-array",
         "name": "K-diff Pairs in an Array",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "533": {
         "link": "https://leetcode.com/problems/lonely-pixel-ii",
@@ -2587,7 +2587,7 @@
     "538": {
         "link": "https://leetcode.com/problems/convert-bst-to-greater-tree",
         "name": "Convert BST to Greater Tree",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "539": {
         "link": "https://leetcode.com/problems/minimum-time-difference",
@@ -2757,7 +2757,7 @@
     "581": {
         "link": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray",
         "name": "Shortest Unsorted Continuous Subarray",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "582": {
         "link": "https://leetcode.com/problems/kill-process",
@@ -2877,7 +2877,7 @@
     "624": {
         "link": "https://leetcode.com/problems/maximum-distance-in-arrays",
         "name": "Maximum Distance in Arrays",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "625": {
         "link": "https://leetcode.com/problems/minimum-factorization",
@@ -2912,7 +2912,7 @@
     "633": {
         "link": "https://leetcode.com/problems/sum-of-square-numbers",
         "name": "Sum of Square Numbers",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "634": {
         "link": "https://leetcode.com/problems/find-the-derangement-of-an-array",
@@ -3182,7 +3182,7 @@
     "687": {
         "link": "https://leetcode.com/problems/longest-univalue-path",
         "name": "Longest Univalue Path",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "688": {
         "link": "https://leetcode.com/problems/knight-probability-in-chessboard",
@@ -3947,7 +3947,7 @@
     "840": {
         "link": "https://leetcode.com/problems/magic-squares-in-grid",
         "name": "Magic Squares In Grid",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "841": {
         "link": "https://leetcode.com/problems/keys-and-rooms",
@@ -3992,7 +3992,7 @@
     "849": {
         "link": "https://leetcode.com/problems/maximize-distance-to-closest-person",
         "name": "Maximize Distance to Closest Person",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "850": {
         "link": "https://leetcode.com/problems/rectangle-area-ii",
@@ -4492,7 +4492,7 @@
     "949": {
         "link": "https://leetcode.com/problems/largest-time-for-given-digits",
         "name": "Largest Time for Given Digits",
-        "difficulty": "Easy"
+        "difficulty": "Medium"
     },
     "950": {
         "link": "https://leetcode.com/problems/reveal-cards-in-increasing-order",
@@ -7197,6 +7197,171 @@
     "1579": {
         "link": "https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable",
         "name": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+        "difficulty": "Hard"
+    },
+    "1580": {
+        "link": "https://leetcode.com/problems/put-boxes-into-the-warehouse-ii",
+        "name": "Put Boxes Into the Warehouse II",
+        "difficulty": "Medium"
+    },
+    "1582": {
+        "link": "https://leetcode.com/problems/special-positions-in-a-binary-matrix",
+        "name": "Special Positions in a Binary Matrix",
+        "difficulty": "Easy"
+    },
+    "1583": {
+        "link": "https://leetcode.com/problems/count-unhappy-friends",
+        "name": "Count Unhappy Friends",
+        "difficulty": "Medium"
+    },
+    "1584": {
+        "link": "https://leetcode.com/problems/min-cost-to-connect-all-points",
+        "name": "Min Cost to Connect All Points",
+        "difficulty": "Medium"
+    },
+    "1585": {
+        "link": "https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations",
+        "name": "Check If String Is Transformable With Substring Sort Operations",
+        "difficulty": "Hard"
+    },
+    "1586": {
+        "link": "https://leetcode.com/problems/binary-search-tree-iterator-ii",
+        "name": "Binary Search Tree Iterator II",
+        "difficulty": "Medium"
+    },
+    "1588": {
+        "link": "https://leetcode.com/problems/sum-of-all-odd-length-subarrays",
+        "name": "Sum of All Odd Length Subarrays",
+        "difficulty": "Easy"
+    },
+    "1589": {
+        "link": "https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation",
+        "name": "Maximum Sum Obtained of Any Permutation",
+        "difficulty": "Medium"
+    },
+    "1590": {
+        "link": "https://leetcode.com/problems/make-sum-divisible-by-p",
+        "name": "Make Sum Divisible by P",
+        "difficulty": "Medium"
+    },
+    "1591": {
+        "link": "https://leetcode.com/problems/strange-printer-ii",
+        "name": "Strange Printer II",
+        "difficulty": "Hard"
+    },
+    "1592": {
+        "link": "https://leetcode.com/problems/rearrange-spaces-between-words",
+        "name": "Rearrange Spaces Between Words",
+        "difficulty": "Easy"
+    },
+    "1593": {
+        "link": "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings",
+        "name": "Split a String Into the Max Number of Unique Substrings",
+        "difficulty": "Medium"
+    },
+    "1594": {
+        "link": "https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix",
+        "name": "Maximum Non Negative Product in a Matrix",
+        "difficulty": "Medium"
+    },
+    "1595": {
+        "link": "https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points",
+        "name": "Minimum Cost to Connect Two Groups of Points",
+        "difficulty": "Hard"
+    },
+    "1597": {
+        "link": "https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression",
+        "name": "Build Binary Expression Tree From Infix Expression",
+        "difficulty": "Hard"
+    },
+    "1598": {
+        "link": "https://leetcode.com/problems/crawler-log-folder",
+        "name": "Crawler Log Folder",
+        "difficulty": "Easy"
+    },
+    "1599": {
+        "link": "https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel",
+        "name": "Maximum Profit of Operating a Centennial Wheel",
+        "difficulty": "Medium"
+    },
+    "1600": {
+        "link": "https://leetcode.com/problems/throne-inheritance",
+        "name": "Throne Inheritance",
+        "difficulty": "Medium"
+    },
+    "1601": {
+        "link": "https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests",
+        "name": "Maximum Number of Achievable Transfer Requests",
+        "difficulty": "Hard"
+    },
+    "1602": {
+        "link": "https://leetcode.com/problems/find-nearest-right-node-in-binary-tree",
+        "name": "Find Nearest Right Node in Binary Tree",
+        "difficulty": "Medium"
+    },
+    "1603": {
+        "link": "https://leetcode.com/problems/design-parking-system",
+        "name": "Design Parking System",
+        "difficulty": "Easy"
+    },
+    "1604": {
+        "link": "https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period",
+        "name": "Alert Using Same Key-Card Three or More Times in a One Hour Period",
+        "difficulty": "Medium"
+    },
+    "1605": {
+        "link": "https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums",
+        "name": "Find Valid Matrix Given Row and Column Sums",
+        "difficulty": "Medium"
+    },
+    "1606": {
+        "link": "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests",
+        "name": "Find Servers That Handled Most Number of Requests",
+        "difficulty": "Hard"
+    },
+    "1608": {
+        "link": "https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x",
+        "name": "Special Array With X Elements Greater Than or Equal X",
+        "difficulty": "Easy"
+    },
+    "1609": {
+        "link": "https://leetcode.com/problems/even-odd-tree",
+        "name": "Even Odd Tree",
+        "difficulty": "Medium"
+    },
+    "1610": {
+        "link": "https://leetcode.com/problems/maximum-number-of-visible-points",
+        "name": "Maximum Number of Visible Points",
+        "difficulty": "Hard"
+    },
+    "1611": {
+        "link": "https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero",
+        "name": "Minimum One Bit Operations to Make Integers Zero",
+        "difficulty": "Hard"
+    },
+    "1612": {
+        "link": "https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent",
+        "name": "Check If Two Expression Trees are Equivalent",
+        "difficulty": "Medium"
+    },
+    "1614": {
+        "link": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses",
+        "name": "Maximum Nesting Depth of the Parentheses",
+        "difficulty": "Easy"
+    },
+    "1615": {
+        "link": "https://leetcode.com/problems/maximal-network-rank",
+        "name": "Maximal Network Rank",
+        "difficulty": "Medium"
+    },
+    "1616": {
+        "link": "https://leetcode.com/problems/split-two-strings-to-make-palindrome",
+        "name": "Split Two Strings to Make Palindrome",
+        "difficulty": "Medium"
+    },
+    "1617": {
+        "link": "https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities",
+        "name": "Count Subtrees With Max Distance Between Cities",
         "difficulty": "Hard"
     }
 }
