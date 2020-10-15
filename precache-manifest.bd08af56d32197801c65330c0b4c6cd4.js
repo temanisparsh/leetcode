@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4579a2d07e034c56c309b4535bdb5606",
+    "revision": "4df1fafd4548a45489d231af929c0ef3",
     "url": "/leetcode/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/leetcode/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "ba99e2f8863ab09065a6",
+    "revision": "c9a856f51fc54bb724a1",
     "url": "/leetcode/static/css/main.bca8e935.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/leetcode/static/js/2.29e63698.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba99e2f8863ab09065a6",
-    "url": "/leetcode/static/js/main.707ead33.chunk.js"
+    "revision": "c9a856f51fc54bb724a1",
+    "url": "/leetcode/static/js/main.8d90c1a5.chunk.js"
   },
   {
     "revision": "aeb270a43711ced8a8c2",

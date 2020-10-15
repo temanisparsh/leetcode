@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/leetcode/static/css/main.bca8e935.chunk.css",
-    "main.js": "/leetcode/static/js/main.707ead33.chunk.js",
-    "main.js.map": "/leetcode/static/js/main.707ead33.chunk.js.map",
+    "main.js": "/leetcode/static/js/main.8d90c1a5.chunk.js",
+    "main.js.map": "/leetcode/static/js/main.8d90c1a5.chunk.js.map",
     "runtime-main.js": "/leetcode/static/js/runtime-main.bca5a1f5.js",
     "runtime-main.js.map": "/leetcode/static/js/runtime-main.bca5a1f5.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/leetcode/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.29e63698.chunk.js": "/leetcode/static/js/2.29e63698.chunk.js",
     "static/js/2.29e63698.chunk.js.map": "/leetcode/static/js/2.29e63698.chunk.js.map",
     "index.html": "/leetcode/index.html",
-    "precache-manifest.5e9c665d9c282dfe8e4826e40b3c8384.js": "/leetcode/precache-manifest.5e9c665d9c282dfe8e4826e40b3c8384.js",
+    "precache-manifest.bd08af56d32197801c65330c0b4c6cd4.js": "/leetcode/precache-manifest.bd08af56d32197801c65330c0b4c6cd4.js",
     "service-worker.js": "/leetcode/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/leetcode/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.bca8e935.chunk.css.map": "/leetcode/static/css/main.bca8e935.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.29e63698.chunk.js",
     "static/css/main.bca8e935.chunk.css",
-    "static/js/main.707ead33.chunk.js"
+    "static/js/main.8d90c1a5.chunk.js"
   ]
 }
